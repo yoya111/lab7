@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/AppleChk"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/apple"
+            tools:ignore="VisualLintButtonSize" />
+
+        <EditText
+            android:id="@+id/AppleNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="@string/_0"
+            tools:ignore="LabelFor,VisualLintTextFieldSize,DuplicateSpeakableTextCheck" />
+
+        <EditText
+            android:id="@+id/ApplePrice"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="0"
+            tools:ignore="HardcodedText,LabelFor,VisualLintTextFieldSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/StrawChk"
+            style="@style/StrawChk"
+            android:layout_width="203dp"
+            android:text="@string/strawberry"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/StrawNum"
+            android:layout_width="221dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:text="@string/s"
+            tools:ignore="LabelFor,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/StrawPrice"
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:text="@string/c"
+            tools:ignore="LabelFor,TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/BlueChk"
+            android:layout_width="144dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/blueberry"
+            tools:ignore="VisualLintButtonSize,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/BlueNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="@string/x"
+            tools:ignore="LabelFor,TouchTargetSizeCheck,VisualLintTextFieldSize"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/BluePrice"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="@string/xz"
+            tools:ignore="LabelFor,VisualLintTextFieldSize,TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/PotatoChk"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/potatoes"
+            tools:ignore="TouchTargetSizeCheck,VisualLintButtonSize" />
+
+        <EditText
+            android:id="@+id/PotatoNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="@string/f"
+            tools:ignore="LabelFor,VisualLintTextFieldSize,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/PotatoPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="@string/as"
+            tools:ignore="LabelFor,VisualLintTextFieldSize,TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/CalcBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="calc"
+            android:text="@string/CalcBtn"
+            tools:ignore="VisualLintButtonSize" />
+    </LinearLayout>
+
+</LinearLayout>

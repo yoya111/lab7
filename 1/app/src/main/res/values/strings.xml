@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="calc" />
+    <string name="CalcBtn">CALCULATE</string>
+    <string name="apple">Apple</string>
+    <string name="_0">0</string>
+    <string name="a">01</string>
+    <string name="strawberry">Strawberry</string>
+    <string name="blueberry">Blueberry</string>
+    <string name="potatoes">Potatoes</string>
+    <string name="s">0</string>
+    <string name="c">0</string>
+    <string name="x">0</string>
+    <string name="xz">0</string>
+    <string name="f">0</string>
+    <string name="as">0</string>
+</resources>
